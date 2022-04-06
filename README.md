@@ -21,7 +21,7 @@ url:localhost:8080/post/{id}/comment?size=2&page=0
 * Get all the posts on the platform in chronological order.
 
 GET:
-url:localhost:8080/post/1/comment?size=2&page=0&sort=createDate,desc or localhost:8080/post/{id}/comment?size=2&page=0&sort=createDate,asc
+url:localhost:8080/post/{id}?size=2&page=0&sort=createDate,desc or localhost:8080/post/{id}?size=2&page=0&sort=createDate,asc
 
 
 Let's see the database, we have tree table one for Users, one for Comments and one for Posts. 
